@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="/static/styles.css" rel="stylesheet">
+        <title>Quiz App</title>
+    </head>
+
+    <body>
+        <div class="header">
+            <h1>Quiz App</h1>
+        </div>
+        <div class="container">
+            <div class="section">
+                    <form action="/quiz" method="post">
+                        <select name="topic">
+                            <option selected disabled value="">Select a Topic</option>
+                            <option value="sports">Sports</option>
+                            <option value="music">Music</option>
+                            <option value="food_drink">Food & Drink</option>
+                            <option value="tv_movie">TV & Movie</option>
+                        </select>
+                        <button type="submit">Start Quiz!</button>
+                    </form>
+            </div>
+        </div>
+
+    </body>
+
+</html>
