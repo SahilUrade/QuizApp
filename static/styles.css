@@ -1,4 +1,7 @@
 body {
+    background-image: url('cowley-1151282.jpg');
+    background-size: cover;
+    background-attachment: fixed;
     background-color: #fff;
     color: #212529;
     font-family: 'Montserrat', sans-serif;
